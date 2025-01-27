@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  margin-top: 20px;
+}
+
+.board{
+  width: 25%;
+  min-height: 800px;
+  border-radius: 12px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+
+}
+
+.board__title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.item{
+  width: 100%;
+  border-radius: 6px;
+  cursor: grab;
+  background-color: #fcfcf9;
+}
